@@ -1,0 +1,37 @@
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs and Databases
+*.log
+*.db
+*.sqlite3
+
+# Virtual Environment
+venv
+
+# Compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Configuration Files
+*.conf
+*.ini
+*.env
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Package Files
+*.egg-info/
+*.egg
+dist/
+build/
+*.pyc
+
+# Other files
+*.swp
+.idea/
+.vscode/
