@@ -12,6 +12,9 @@ DB_NAME="mydb"
 DB_USERNAME="admin"
 DB_PASSWORD="mysecretpassword"
 
+# Import AWS credentials function
+source aws_utils.sh
+
 # Define functions
 function validate_input() {
   # Validate inputs
@@ -62,6 +65,9 @@ function apply_plan() {
     exit 1
   fi
 }
+
+# Check AWS credentials
+check_aws_credentials
 
 # Define menu options
 while true
